@@ -1,0 +1,364 @@
+
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Wild Ones</title>
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <div class="hostel-header mdl-layout__header mdl-layout__header--waterfall">
+
+        <div class="mdl-layout__header-row">
+          <span class="hostel-title mdl-layout-title">
+            <!--<img class="hostel-logo-image" src="images/logo.jpg">-->
+                <!-- Title -->
+              <a href="index.html" class="two mdl-layout-title" style ="top:5px; text-decoration : none;">Hostel 2</a>
+          </span>
+            <!-- Add spacer, to align navigation to the right in desktop -->
+            <div class="hostel-header-spacer mdl-layout-spacer"></div>
+            <div class="hostel-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+                    <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" id="search-field" />
+                </div>
+            </div>
+            <!-- Navigation -->
+            <div class="hostel-navigation-container">
+                <nav class="hostel-navigation mdl-navigation">
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Council</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Cult</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tech</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sports</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Mess</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Maint</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Alumni</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">About</a>
+                </nav>
+            </div>
+            <button class="hostel-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+            </button>
+            <!--<ul class="mdl-menu mdl-js-menu mdl-menu&#45;&#45;bottom-right mdl-js-ripple-effect" for="more-button">-->
+            <!--<li class="mdl-menu__item">5.0 Lollipop</li>-->
+            <!--<li class="mdl-menu__item">4.4 KitKat</li>-->
+            <!--<li disabled class="mdl-menu__item">4.3 Jelly Bean</li>-->
+            <!--<li class="mdl-menu__item">Android History</li>-->
+            <!--</ul>-->
+          <span class="hostel-mobile-title mdl-layout-title" style="left:70px;">
+            <!--<img class="hostel-logo-image" src="images/android-logo.png">-->
+            <a style = "text-decoration: none;" href="index.html" class="two mdl-layout-title">Hostel 2</a>
+          </span>
+        </div>
+    </div>
+
+    <div class="hostel-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title" style="padding-left:30px;">
+          <!--<img class="hostel-logo-image" src="images/android-logo-white.png">-->
+          <a href="index.html" class="two " style="text-decoration: none; top:50px;">Hostel 2</a>
+        </span>
+        <nav class="mdl-navigation">
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Council</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Cult</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Tech</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Sports</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Mess</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Maint</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Alumni</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">About</a>
+            <!--<div class="hostel-drawer-separator"></div>-->
+            <!--<span class="mdl-navigation__link" href="">Versions</span>-->
+            <!--<a class="mdl-navigation__link" href="">Lollipop 5.0</a>-->
+            <!--<a class="mdl-navigation__link" href="">KitKat 4.4</a>-->
+            <!--<a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>-->
+            <!--<a class="mdl-navigation__link" href="">Android history</a>-->
+            <!--<div class="hostel-drawer-separator"></div>-->
+            <!--<span class="mdl-navigation__link" href="">Resources</span>-->
+            <!--<a class="mdl-navigation__link" href="">Official blog</a>-->
+            <!--<a class="mdl-navigation__link" href="">Android on Google+</a>-->
+            <!--<a class="mdl-navigation__link" href="">Android on Twitter</a>-->
+            <!--<div class="hostel-drawer-separator"></div>-->
+            <!--<span class="mdl-navigation__link" href="">For developers</span>-->
+            <!--<a class="mdl-navigation__link" href="">App developer resources</a>-->
+            <!--<a class="mdl-navigation__link" href="">Android Open Source Project</a>-->
+            <!--<a class="mdl-navigation__link" href="">Android SDK</a>-->
+        </nav>
+    </div>
+    <!--Nav links end-->
+    <!--Main body starts-->
+    <!--<div class="hostel-content mdl-layout__content">-->
+        <!-- -->
+        <!--<div class="hostel-be-together-section mdl-typography&#45;&#45;text-center">-->
+            <!--&lt;!&ndash;<div class="hostel-font hostel-slogan">be together. not the same.</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="hostel-font hostel-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="hostel-font hostel-create-character">&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href=""><img src="images/andy.png"> create your android character</a>&ndash;&gt;-->
+            <!--<div id="myCarousel" class="carousel slide" style = "margin:0px;"data-ride="carousel">-->
+                <!--&lt;!&ndash; Carousel indicators &ndash;&gt;-->
+                <!--<ol class="carousel-indicators">-->
+                    <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+                    <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+                    <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+                <!--</ol>-->
+                <!--&lt;!&ndash; Wrapper for carousel items &ndash;&gt;-->
+                <!--<div class="carousel-inner">-->
+                    <!--<div class="item active">-->
+                        <!--<img src="../images/slide1.jpg" alt="First Slide">-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<img src="../images/slide2.jpg" alt="Second Slide">-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<img src="../images/slide3.jpg" alt="Third Slide">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; Carousel controls &ndash;&gt;-->
+                <!--<a class="carousel-control left" href="#myCarousel" data-slide="prev">-->
+                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                <!--</a>-->
+                <!--<a class="carousel-control right" href="#myCarousel" data-slide="next">-->
+                    <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+                <!--</a>-->
+            <!--</div>-->
+
+        <!--</div>-->
+
+        <!--&lt;!&ndash;<a href="#screens">&ndash;&gt;-->
+        <!--&lt;!&ndash;<button class="hostel-fab mdl-button mdl-button&#45;&#45;colored mdl-js-button mdl-button&#45;&#45;fab mdl-js-ripple-effect">&ndash;&gt;-->
+        <!--&lt;!&ndash;<i class="material-icons">expand_more</i>&ndash;&gt;-->
+        <!--&lt;!&ndash;</button>&ndash;&gt;-->
+        <!--&lt;!&ndash;</a>&ndash;&gt;-->
+    <!--</div>-->
+    <!--<div class="hostel-screen-section mdl-typography&#45;&#45;text-center">-->
+    <!--<a name="screens"></a>-->
+    <!--<div class="mdl-typography&#45;&#45;display-1-color-contrast">Powering screens of all sizes</div>-->
+    <!--<div class="hostel-screens">-->
+    <!--<div class="hostel-wear hostel-screen">-->
+    <!--<a class="hostel-image-link" href="">-->
+    <!--<img class="hostel-screen-image" src="images/wear-silver-on.png">-->
+    <!--<img class="hostel-screen-image" src="images/wear-black-on.png">-->
+    <!--</a>-->
+    <!--<a class="hostel-link mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase" href="">Android Wear</a>-->
+    <!--</div>-->
+    <!--<div class="hostel-phone hostel-screen">-->
+    <!--<a class="hostel-image-link" href="">-->
+    <!--<img class="hostel-screen-image" src="images/nexus6-on.jpg">-->
+    <!--</a>-->
+    <!--<a class="hostel-link mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase" href="">Phones</a>-->
+    <!--</div>-->
+    <!--<div class="hostel-tablet hostel-screen">-->
+    <!--<a class="hostel-image-link" href="">-->
+    <!--<img class="hostel-screen-image" src="images/nexus9-on.jpg">-->
+    <!--</a>-->
+    <!--<a class="hostel-link mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase" href="">Tablets</a>-->
+    <!--</div>-->
+    <!--<div class="hostel-tv hostel-screen">-->
+    <!--<a class="hostel-image-link" href="">-->
+    <!--<img class="hostel-screen-image" src="images/tv-on.jpg">-->
+    <!--</a>-->
+    <!--<a class="hostel-link mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase" href="">Android TV</a>-->
+    <!--</div>-->
+    <!--<div class="hostel-auto hostel-screen">-->
+    <!--<a class="hostel-image-link" href="">-->
+    <!--<img class="hostel-screen-image" src="images/auto-on.jpg">-->
+    <!--</a>-->
+    <!--<a class="hostel-link mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase mdl-typography&#45;&#45;text-left" href="">Coming Soon: Android Auto</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="hostel-wear-section">-->
+    <!--<div class="hostel-wear-band">-->
+    <!--<div class="hostel-wear-band-text">-->
+    <!--<div class="mdl-typography&#45;&#45;display-2 mdl-typography&#45;&#45;font-thin">The best of Google built in</div>-->
+    <!--<p class="mdl-typography&#45;&#45;headline mdl-typography&#45;&#45;font-thin">-->
+    <!--Android works perfectly with your favourite apps like Google Maps,-->
+    <!--Calendar and YouTube.-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<a class="mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase hostel-alt-link" href="">-->
+    <!--See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>-->
+    <!--</a>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="hostel-customized-section">-->
+    <!--<div class="hostel-customized-section-text">-->
+    <!--<div class="mdl-typography&#45;&#45;font-light mdl-typography&#45;&#45;display-1-color-contrast">Customised by you, for you</div>-->
+    <!--<p class="mdl-typography&#45;&#45;font-light">-->
+    <!--Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.-->
+    <!--<br>-->
+    <!--<a href="" class="hostel-link mdl-typography&#45;&#45;font-light">Customise your phone</a>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--<div class="hostel-customized-section-image"></div>-->
+    <!--</div>-->
+    <!--<div class="hostel-more-section">-->
+    <!--<div class="hostel-section-title mdl-typography&#45;&#45;display-1-color-contrast">More from Android</div>-->
+    <!--<div class="hostel-card-container mdl-grid">-->
+    <!--<div class="mdl-cell mdl-cell&#45;&#45;3-col mdl-cell&#45;&#45;4-col-tablet mdl-cell&#45;&#45;4-col-phone mdl-card mdl-shadow&#45;&#45;3dp">-->
+    <!--<div class="mdl-card__media">-->
+    <!--<img src="images/more-from-1.png">-->
+    <!--</div>-->
+    <!--<div class="mdl-card__title">-->
+    <!--<h4 class="mdl-card__title-text">Get going on Android</h4>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__supporting-text">-->
+    <!--<span class="mdl-typography&#45;&#45;font-light mdl-typography&#45;&#45;subhead">Four tips to make your switch to Android quick and easy</span>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__actions">-->
+    <!--<a class="hostel-link mdl-button mdl-js-button mdl-typography&#45;&#45;text-uppercase" href="">-->
+    <!--Make the switch-->
+    <!--<i class="material-icons">chevron_right</i>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="mdl-cell mdl-cell&#45;&#45;3-col mdl-cell&#45;&#45;4-col-tablet mdl-cell&#45;&#45;4-col-phone mdl-card mdl-shadow&#45;&#45;3dp">-->
+    <!--<div class="mdl-card__media">-->
+    <!--<img src="images/more-from-4.png">-->
+    <!--</div>-->
+    <!--<div class="mdl-card__title">-->
+    <!--<h4 class="mdl-card__title-text">Create your own Android character</h4>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__supporting-text">-->
+    <!--<span class="mdl-typography&#45;&#45;font-light mdl-typography&#45;&#45;subhead">Turn the little green Android mascot into you, your friends, anyone!</span>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__actions">-->
+    <!--<a class="hostel-link mdl-button mdl-js-button mdl-typography&#45;&#45;text-uppercase" href="">-->
+    <!--androidify.com-->
+    <!--<i class="material-icons">chevron_right</i>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="mdl-cell mdl-cell&#45;&#45;3-col mdl-cell&#45;&#45;4-col-tablet mdl-cell&#45;&#45;4-col-phone mdl-card mdl-shadow&#45;&#45;3dp">-->
+    <!--<div class="mdl-card__media">-->
+    <!--<img src="images/more-from-2.png">-->
+    <!--</div>-->
+    <!--<div class="mdl-card__title">-->
+    <!--<h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__supporting-text">-->
+    <!--<span class="mdl-typography&#45;&#45;font-light mdl-typography&#45;&#45;subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__actions">-->
+    <!--<a class="hostel-link mdl-button mdl-js-button mdl-typography&#45;&#45;text-uppercase" href="">-->
+    <!--Download now-->
+    <!--<i class="material-icons">chevron_right</i>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="mdl-cell mdl-cell&#45;&#45;3-col mdl-cell&#45;&#45;4-col-tablet mdl-cell&#45;&#45;4-col-phone mdl-card mdl-shadow&#45;&#45;3dp">-->
+    <!--<div class="mdl-card__media">-->
+    <!--<img src="images/more-from-3.png">-->
+    <!--</div>-->
+    <!--<div class="mdl-card__title">-->
+    <!--<h4 class="mdl-card__title-text">Millions to choose from</h4>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__supporting-text">-->
+    <!--<span class="mdl-typography&#45;&#45;font-light mdl-typography&#45;&#45;subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__actions">-->
+    <!--<a class="hostel-link mdl-button mdl-js-button mdl-typography&#45;&#45;text-uppercase" href="">-->
+    <!--Find apps-->
+    <!--<i class="material-icons">chevron_right</i>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<footer class="hostel-footer mdl-mega-footer">-->
+    <!--<div class="mdl-mega-footer&#45;&#45;top-section">-->
+    <!--<div class="mdl-mega-footer&#45;&#45;left-section">-->
+    <!--<button class="mdl-mega-footer&#45;&#45;social-btn"></button>-->
+    <!--&nbsp;-->
+    <!--<button class="mdl-mega-footer&#45;&#45;social-btn"></button>-->
+    <!--&nbsp;-->
+    <!--<button class="mdl-mega-footer&#45;&#45;social-btn"></button>-->
+    <!--</div>-->
+    <!--<div class="mdl-mega-footer&#45;&#45;right-section">-->
+    <!--<a class="mdl-typography&#45;&#45;font-light" href="#top">-->
+    <!--Back to Top-->
+    <!--<i class="material-icons">expand_less</i>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--&lt;!&ndash;<div class="mdl-mega-footer&#45;&#45;middle-section">&ndash;&gt;-->
+    <!--&lt;!&ndash;<p class="mdl-typography&#45;&#45;font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>&ndash;&gt;-->
+    <!--&lt;!&ndash;<p class="mdl-typography&#45;&#45;font-light">Some features and devices may not be available in all areas</p>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<div class="mdl-mega-footer&#45;&#45;bottom-section">&ndash;&gt;-->
+    <!--&lt;!&ndash;<a class="hostel-link hostel-link-menu mdl-typography&#45;&#45;font-light" id="version-dropdown">&ndash;&gt;-->
+    <!--&lt;!&ndash;Versions&ndash;&gt;-->
+    <!--&lt;!&ndash;<i class="material-icons">arrow_drop_up</i>&ndash;&gt;-->
+    <!--&lt;!&ndash;</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ul class="mdl-menu mdl-js-menu mdl-menu&#45;&#45;top-left mdl-js-ripple-effect" for="version-dropdown">&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">5.0 Lollipop</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">4.4 KitKat</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">4.3 Jelly Bean</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">Android History</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+    <!--&lt;!&ndash;<a class="hostel-link hostel-link-menu mdl-typography&#45;&#45;font-light" id="developers-dropdown">&ndash;&gt;-->
+    <!--&lt;!&ndash;For Developers&ndash;&gt;-->
+    <!--&lt;!&ndash;<i class="material-icons">arrow_drop_up</i>&ndash;&gt;-->
+    <!--&lt;!&ndash;</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ul class="mdl-menu mdl-js-menu mdl-menu&#45;&#45;top-left mdl-js-ripple-effect" for="developers-dropdown">&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">App developer resources</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">Android Open Source Project</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">Android SDK</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mdl-menu__item">Android for Work</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+    <!--&lt;!&ndash;<a class="hostel-link mdl-typography&#45;&#45;font-light" href="">Blog</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;<a class="hostel-link mdl-typography&#45;&#45;font-light" href="">Privacy Policy</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+    <!--</footer>-->
+</div>
+
+
+<script src="../js/material.min.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

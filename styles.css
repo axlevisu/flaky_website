@@ -52,10 +52,11 @@ Carousel styels
 {position:relative;
   /*top:5px;*/
   color:#70694f;
+  text-decoration: none;
   font-size:40px;
   font-family:Afont;
   text-align: center;
-  text-decoration: none;
+
 
 }
 
