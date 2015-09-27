@@ -14,7 +14,16 @@
  * limitations under the License.
  */
 
+.slides {
+  width: 700px;
+  margin: 0 auto;
+}
 
+.slides ul {
+  list-style: inside none disc;
+  margin: 0;
+  padding: 0;
+}
 /*.header*/
 /*{color:#70694f;*/
   /*font-size: 150px;*/
