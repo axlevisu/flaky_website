@@ -31,6 +31,12 @@
       <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/pgwslideshow.css" rel="stylesheet">
@@ -124,26 +130,38 @@
 <!--Nav links end-->
       <!--Main body starts-->
       <div class="hostel-content mdl-layout__content">
-        <div class="slides">
-          <ul class="pgwSlideshow">
-            <li><img src="../images/slide2.jpg" alt="San Francisco, USA" data-description="Golden Gate Bridge"></li>
-            <li><img src="../images/slide1.jpg" alt="Rio de Janeiro, Brazil"></li>
-            <li><img src="../images/slide3.jpg" alt="" data-large-src="london.jpg"></li>
-            <li><img src="../images/slide3.jpg" alt=""></li>
-            <li><img src="../images/slide1.jpg" alt=""></li>
-            <li><img src="../images/slide3.jpg" alt=""></li>
-            <li><img src="../images/slide2.jpg" alt=""></li>
-            <li><img src="../images/slide1.jpg" alt=""></li>
-            <li><img src="../images/slide3.jpg" alt=""></li>
-            <li><img src="../images/slide2.jpg" alt=""></li>
-            <li><img src="../images/slide2.jpg" alt=""></li>
-            <li>
-              <a href="http://en.wikipedia.org/wiki/Monaco" target="_blank">
-                <img src="../images/slide3.jpg" alt="Monaco">
-              </a>
-            </li>
-          </ul>
+        <div id="owl-demo">
+
+          <div class="item"><img src="../images/slide2.jpg" alt="Owl Image"></div>
+          <div class="item"><img src="../images/slide1.jpg" alt="Owl Image"></div>
+          <div class="item"><img src="../images/slide3.jpg" alt="Owl Image"></div>
+          <!--<div class="item"><img src="../owl.carousel/assets/owl4.jpg" alt="Owl Image"></div>-->
+          <!--<div class="item"><img src="../owl.carousel/assets/owl5.jpg" alt="Owl Image"></div>-->
+          <!--<div class="item"><img src="../owl.carousel/assets/owl6.jpg" alt="Owl Image"></div>-->
+          <!--<div class="item"><img src="../owl.carousel/assets/owl7.jpg" alt="Owl Image"></div>-->
+          <!--<div class="item"><img src="../owl.carousel/assets/owl8.jpg" alt="Owl Image"></div>-->
+
         </div>
+        <!--<div class="slides">-->
+          <!--<ul class="pgwSlideshow">-->
+            <!--<li><img src="../images/slide2.jpg" alt="San Francisco, USA" data-description="Golden Gate Bridge"></li>-->
+            <!--<li><img src="../images/slide1.jpg" alt="Rio de Janeiro, Brazil"></li>-->
+            <!--<li><img src="../images/slide3.jpg" alt="" data-large-src="london.jpg"></li>-->
+            <!--<li><img src="../images/slide3.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide1.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide3.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide2.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide1.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide3.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide2.jpg" alt=""></li>-->
+            <!--<li><img src="../images/slide2.jpg" alt=""></li>-->
+            <!--<li>-->
+              <!--<a href="http://en.wikipedia.org/wiki/Monaco" target="_blank">-->
+                <!--<img src="../images/slide3.jpg" alt="Monaco">-->
+              <!--</a>-->
+            <!--</li>-->
+          <!--</ul>-->
+        <!--</div>-->
         <!--<a name="top"></a>-->
 
           <!--<div id="myCarousel" class="carousel slide" style = "margin:0px;"data-ride="carousel">-->
@@ -207,10 +225,27 @@
     <script src="js/zepto.min.js"></script>
     <script src="js/pgwslideshow.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!--<script>-->
+      <!--$(document).ready(function() {-->
+        <!--var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow({autoSlide:true});-->
+<!--//        pgwSlideshow.stopSlide();-->
+      <!--});-->
+    <!--</script>-->
+    <!-- Include js plugin -->
+    <script src="owl-carousel/owl.carousel.js"></script>
     <script>
       $(document).ready(function() {
-        var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow({autoSlide:true});
-//        pgwSlideshow.stopSlide();
+
+        $("#owl-demo").owlCarousel({
+
+          autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+          items : 2,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+
+        });
+
       });
     </script>
   </body>
