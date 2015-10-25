@@ -42,6 +42,15 @@ Maint Style
   margin: 0;
   padding: 0;
 }
+
+/*Alumni Page Style*/
+.hostel-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+/*Alumni Style ends*/
 /*.header*/
 /*{color:#70694f;*/
   /*font-size: 150px;*/
@@ -152,6 +161,7 @@ body
 {margin: 0px;
   padding: 0px;
   background-color:#e8eb8a;
+  overflow: hidden;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -538,6 +548,16 @@ a img{
     padding-bottom: 24px;
   }
 
+.hostel-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.hostel-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+  url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
 .hostel-card-container {
 }
 
@@ -687,3 +707,55 @@ a img{
     display: none;
   }
 }
+/*From Parallax*/
+
+
+/**/
+/**/
+#wrapper {
+  width: 100%;
+  /*margin: -100px 0 0 0;*/
+  /*position: absolute;*/
+  position: relative;
+  left: 0;
+  /*top: 50%;*/
+  top: 20px;
+}
+#wrapper h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#wrapper > div {
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 60px;
+  padding: 15px 0;
+  overflow: hidden;
+}
+#wrapper > div.first {
+  border-bottom: none;
+}
+
+#wrapper dl {
+  display: block;
+  margin: 0;
+}
+#wrapper dt, #wrapper dd {
+  display: block;
+  float: left;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+#wrapper dt {
+  background-color: #f66;
+  color: #fff;
+}
+#wrapper dd {
+  color: #333;
+  margin-right: 50px;
+}
+
+/**/
