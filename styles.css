@@ -549,8 +549,8 @@ a img{
   }
 
 .hostel-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
+  /*width: 320px;*/
+  /*height: 320px;*/
 }
 .hostel-card-square > .mdl-card__title {
   color: #fff;
@@ -758,4 +758,28 @@ a img{
   margin-right: 50px;
 }
 
+/*Section*/
+section.section--center {
+  max-width: 920px;
+}
+#features section.section--center {
+  max-width: 620px;
+}
+section > .section__play-btn {
+  min-height: 200px;
+}
+section > header{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 /**/
