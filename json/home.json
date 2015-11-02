@@ -1,0 +1,16 @@
+{
+  "owl" : [
+    {"item" : "<div class=\"update\" style =\"background: url('images/sports/tgc.JPG')center / cover;height: 320px;\"><h1>GOLD IN TRIATHLON GC 2015</h1></div>"},
+
+    {"item" : "<div class=\"update\" style =\"background: url('images/cult/gyra2.JPG')center / cover;height: 320px;\"><h1>THIRD IN GYRATIONS 2015</h1></div>"},
+
+    {"item" : "<span class='update'><h2>Gala Dinner on 4th November</h2></span>"},
+
+    {"item" : "<span class='update'><h1>LAN Vendor Visit on 14th November</h1></span>"},
+
+    {"item" : "<span class='update'><h1>GBM on 5th November</h1></span>"},
+
+    {"item" : "<span class='update'><h1>LOST AND FOUND:</h1></span>"}
+
+  ]
+}

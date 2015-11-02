@@ -72,14 +72,28 @@ Carousel styels
 /*}*/
 
 #owl-demo .item{
-  margin: 3px;
+  padding: 3px;
 }
 #owl-demo .item img{
   display: block;
   width: 100%;
   height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
-
+#owl-demo .update{
+  background: #a1def8;
+  padding: 30px 0px;
+  display: block;
+  margin: 5px;
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 5px;
+  text-align: center;
+  max-height: 480px;
+}
 /*.carousel {*/
   /*height: 100%;*/
 /*}*/
@@ -298,7 +312,7 @@ a img{
 
 .hostel-drawer {
   border-right: none;
-  /*width: 240px;*/
+  /*width: 280px;*/
 }
 
   .hostel-drawer-separator {
@@ -339,20 +353,20 @@ a img{
 }
 
 .hostel-font {
-  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1;
+  font-family:  'Helvetica', 'Arial', sans-serif;
+  line-height: 1.2;
   color: #767777;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .hostel-slogan {
-  font-size: 60px;
-  padding-top: 160px;
+  font-size: 50px;
+  /*padding-top: 160px;*/
 }
 
 .hostel-sub-slogan {
-  font-size: 21px;
-  padding-top: 24px;
+  font-size: 18px;
+  padding-top: 10px;
 }
 
 .hostel-create-character {
@@ -488,9 +502,11 @@ a img{
 
 .hostel-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #8bc34a;
 }
-
+.hostel-link a {
+  text-decoration: none;
+}
   .hostel-link:hover {
     color: #7cb342 !important;
   }
@@ -671,9 +687,9 @@ a img{
     width: 100%;
   }
 
-  .hostel-be-together-section {
-    height: 350px;
-  }
+  /*.hostel-be-together-section {*/
+    /*height: 350px;*/
+  /*}*/
 
   .hostel-slogan {
     font-size: 26px;
@@ -867,4 +883,66 @@ section .section--center .section__text:not(:last-child) {
   line-height: 28px;
   display: block;
 }
+
+.coc h4 {
+  /*font-size: 0.9rem;*/
+  margin-top: 0;
+}
+.coc a {
+  /*position: absolute;*/
+  /*padding-top:5px;*/
+  /*bottom: -4px;*/
+  color: #4DD0E1;
+  text-decoration: none;
+  /*font-size: 16px;*/
+  /*height: 30px;*/
+  /*display: block;*/
+}
+.coc li a{
+  /*position: absolute;*/
+  /*bottom: -4px;*/
+  /*padding-top:5px;*/
+  /*display: block;*/
+  text-decoration: none;
+}
+.coc li {
+  /*padding-left: 25px;*/
+  /*color: #4DD0E1;*/
+  color: #3b5998;
+  text-decoration: none;
+  font-size: 18px;
+  /*line-height: 28px;*/
+  display: block;
+}
+/**/
+/*Footer Social buttons*/
+.social-btn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 16px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  opacity: 0.46;
+  border-radius: 3px;
+}
+.social-btn__twitter {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
+}
+.social-btn__blogger {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_36dp.png');
+}
+.social-btn__gplus {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.png');
+}
+.social-btn__youtube {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_youtube_black_36dp.png');
+}
+.social-btn__share {
+  color: rgba(0, 0, 0, 0.54);
+  background: transparent;
+}
+
 /**/

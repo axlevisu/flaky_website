@@ -70,7 +70,7 @@
             <div class="hostel-header-spacer mdl-layout-spacer"></div>
             <div class="hostel-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
                 <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-                    <i class="material-icons">search</i>
+                    <!--<i class="material-icons">search</i>-->
                 </label>
                 <div class="mdl-textfield__expandable-holder">
                     <input class="mdl-textfield__input" type="text" id="search-field" />
@@ -80,14 +80,14 @@
             <div class="hostel-navigation-container">
                 <nav class="hostel-navigation mdl-navigation">
                     <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../council">Council</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Cult</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tech</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sports</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Mess</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Maint</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Comp</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Alumni</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">About</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../cult">Cult</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../tech">Tech</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../sports">Sports</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../mess">Mess</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../maint">Maint</a>
+                    <!--<a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography&#45;&#45;text-uppercase" href="../comp">Comp</a>-->
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../alumni">Alumni</a>
+                    <!--<a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography&#45;&#45;text-uppercase" href="">About</a>-->
                 </nav>
             </div>
             <!--<button class="hostel-more-button mdl-button mdl-js-button mdl-button&#45;&#45;icon mdl-js-ripple-effect" id="more-button">-->
@@ -101,7 +101,7 @@
             <!--</ul>-->
           <span class="hostel-mobile-title mdl-layout-title" >
             <!--<img class="hostel-logo-image" src="images/hostel-logo.png">-->
-            <a style = "text-decoration: none;" href="index.html" class="two mdl-layout-title">Hostel 2</a>
+            <a style = "text-decoration: none;" href="../index.html" class="two mdl-layout-title">Hostel 2</a>
           </span>
         </div>
     </div>
@@ -109,18 +109,17 @@
     <div class="hostel-drawer mdl-layout__drawer">
         <span class="mdl-layout-title" style="padding-left:30px;">
           <!--<img class="hostel-logo-image" src="images/hostel-logo-white.png">-->
-          <a href="../index.html" class="two " style="text-decoration: none; top:10px;">Hostel 2</a>
+          <a href="../index.html" class="two " style="text-decoration: none; top:7px;">Hostel 2</a>
         </span>
         <nav class="mdl-navigation">
             <a style = "text-decoration: none;" class="mdl-navigation__link" href="../council">Council</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Cult</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Tech</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Sports</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Mess</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Maint</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Comp</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Alumni</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">About</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../cult">Cult</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../tech">Tech</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../sports">Sports</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../mess">Mess</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../maint">Maint</a>
+            <!--<a style = "text-decoration: none;" class="mdl-navigation__link" href="">Comp</a>-->
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../alumni">Alumni</a>
             <!--<div class="hostel-drawer-separator"></div>-->
             <!--<span class="mdl-navigation__link" href="">Versions</span>-->
             <!--<a class="mdl-navigation__link" href="">Lollipop 5.0</a>-->
@@ -223,14 +222,38 @@
             </div>
 
         </div>
-        <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col" style = "min-height: auto;">
+        <div class=" mdl-grid">
+            <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp" style = "min-height: auto;">
+                <div class = "mdl-card__title">
+                    <h4 class="mdl-card__title-text" align="center">Sports GC Standing</h4>
+                </div>
                 <div class="mdl-card__supporting-text">
-                    <h4>Sports GC Standing</h4>
-                    Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim.
+
+                    <ul class="coc" style="padding:0px">
+                        <li class="hostel-link" style="color: #0e1f5b;">
+                            <i class="material-icons md-36" style="color: #FFD700;">star</i>
+                        &nbsp;Gold in Triathlon GC
+                        <li class="hostel-link" style="color: #0e1f5b;">
+                            <i class="material-icons md-36" style="color: #FFD700;">star</i>
+                        &nbsp;Gold in Badminton GC
+                        <li class="hostel-link" style="color: #0e1f5b;">
+                            <i class="material-icons md-36" style="color: #FFD700;">star</i>
+                        &nbsp;Gold in Table Tennis GC
+                        <li class="hostel-link" style="color: #0e1f5b;">
+                            <i class="material-icons md-36" style="color: #FFD700;">star</i>
+                        &nbsp;Gold in Chess
+                        <li class="hostel-link" style="color: #0e1f5b;">
+                            <i class="material-icons md-36" style="color: #F7F7F7;">star</i>
+                        &nbsp;4th in Crossy GC
+                        <li class="hostel-link" style="color: #0e1f5b;">
+                            <i class="material-icons md-36" style="color: #F7F7F1;">star</i>
+                        &nbsp;4th in Swimming GC
+
+                        </li>
+                    </ul>
                 </div>
                 <div class="mdl-card__actions mdl-card&#45;&#45;border">
-                    <a href="#" class="mdl-button mdl-button&#45;&#45;colored mdl-js-button mdl-js-ripple-effect">GC Ranking</a>
+                    <a href="#" class="mdl-button mdl-button&#45;&#45;colored mdl-js-button mdl-js-ripple-effect">GC Ranking Table</a>
                 </div>
             </div>
             <!--<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button&#45;&#45;icon" id="btn3">-->
@@ -241,7 +264,7 @@
             <!--<li class="mdl-menu__item" disabled>Ipsum</li>-->
             <!--<li class="mdl-menu__item">Dolor</li>-->
             <!--</ul>-->
-        </section>
+        </div>
 
         <br>
         <br>
@@ -253,6 +276,76 @@
             <!--<iframe src="https://calendar.google.com/calendar/embed?title=STAB%20Calendar&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=yrajsm%40gmail.com&amp;color=%2328754E&amp;src=rushilmodi28%40gmail.com&amp;color=%2323164E&amp;src=rpavanhebbar1996%40gmail.com&amp;color=%238C500B&amp;src=darshildave94%40gmail.com&amp;color=%232F6309&amp;src=fvktl04jnjac2ns9hh080fol2g%40group.calendar.google.com&amp;color=%235F6B02&amp;ctz=Asia%2FCalcutta" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>-->
             <iframe src="https://calendar.google.com/calendar/embed?title=Sports%20Calendar%28Boys%29&amp;height=400&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=vcqlacs6l2o2uhgems2b0emjio%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Asia%2FCalcutta" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
         </div>
+        <footer class="hostel-footer mdl-mega-footer">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--left-section">
+                    <a href="https://www.facebook.com/h2iitb" class="hostel-link">
+                        <button class="mdl-mega-footer--social-btn social-btn social-btn__blogger">
+                            <span class="visuallyhidden">Facebook</span>
+                        </button>
+                    </a>
+                    &nbsp;
+                    <a href="https://www.youtube.com/channel/UC55X5aMAcRVt1zgjv-Ll2fA" class="hostel-link">
+                        <button class="mdl-mega-footer--social-btn social-btn social-btn__youtube">
+                            <span class="visuallyhidden">Youtube</span>
+                        </button>
+                    </a>
+
+                </div>
+                <div class="mdl-mega-footer--right-section">
+                    <ul class="coc">
+                        <li class="hostel-link">
+                            <a class="mdl-typography--font-light" href="#top" style="float: right; text-decoration: none;">
+                                Back to Top
+                                <i class="material-icons">expand_less</i>
+                            </a></li>
+                        <li class="hostel-link">
+                            <div class="fb-like" style="float: bottom;" data-href="https://www.facebook.com/h2iitb/" data-width="74px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                        </li>
+                        <li class="hostel-link">
+                            <a class="twitter-share-button"
+                               href="https://twitter.com/intent/tweet?text=Checkout Hostel 2: The Wild Ones Website"
+                                    >
+                                Tweet</a>
+                            <link rel="canonical"
+                                  href="http://gymkhana.iitb.ac.in/~hostel2">
+                        </li>
+                        <li>
+                            <div class="g-ytsubscribe" data-channel="Hostel2channel" data-layout="default" data-count="default" data-onytevent="onYtEvent"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mdl-mega-footer--middle-section">
+                <p class="mdl-typography--font-light">Designed by Computer Council 2015-16</p>
+            </div>
+
+            <div class="mdl-mega-footer--bottom-section">
+                <a class="hostel-link hostel-link-menu mdl-typography--font-light" id="version-dropdown">
+                    Quick Links
+                    <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+                    <li class="mdl-menu__item">KFC Portal</li>
+                    <li class="mdl-menu__item">McD Portal</li>
+                    <li disabled class="mdl-menu__item">Online Mess Rebate</li>
+                    <li disabled class="mdl-menu__item">Archives</li>
+                </ul>
+                <a class="hostel-link hostel-link-menu mdl-typography--font-light" id="developers-dropdown">
+                    Gallery
+                    <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+                    <li disabled class="mdl-menu__item">Sports Gallery</li>
+                    <li disabled class="mdl-menu__item">Cult Gallery</li>
+
+                </ul>
+                <a class="hostel-link mdl-typography--font-light" href="">View Source</a>
+                <a class="hostel-link mdl-typography--font-light" href="">Mess Menu</a>
+                <!--<a class="hostel-link mdl-typography&#45;&#45;font-light" href="">Hostel-2 Library</a>-->
+            </div>
+        </footer>
     </div>
 </div>
 

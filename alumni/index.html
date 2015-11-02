@@ -44,7 +44,14 @@
     <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -61,7 +68,7 @@
             <div class="hostel-header-spacer mdl-layout-spacer"></div>
             <div class="hostel-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
                 <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-                    <i class="material-icons">search</i>
+                    <!--<i class="material-icons">search</i>-->
                 </label>
                 <div class="mdl-textfield__expandable-holder">
                     <input class="mdl-textfield__input" type="text" id="search-field" />
@@ -71,14 +78,14 @@
             <div class="hostel-navigation-container">
                 <nav class="hostel-navigation mdl-navigation">
                     <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../council">Council</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Cult</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tech</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sports</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Mess</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Maint</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Comp</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Alumni</a>
-                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">About</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../cult">Cult</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../tech">Tech</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../sports">Sports</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../mess">Mess</a>
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../maint">Maint</a>
+                    <!--<a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography&#45;&#45;text-uppercase" href="../comp">Comp</a>-->
+                    <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="../alumni">Alumni</a>
+                    <!--<a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography&#45;&#45;text-uppercase" href="">About</a>-->
                 </nav>
             </div>
             <!--<button class="hostel-more-button mdl-button mdl-js-button mdl-button&#45;&#45;icon mdl-js-ripple-effect" id="more-button">-->
@@ -92,7 +99,7 @@
             <!--</ul>-->
           <span class="hostel-mobile-title mdl-layout-title" >
             <!--<img class="hostel-logo-image" src="images/hostel-logo.png">-->
-            <a style = "text-decoration: none;" href="index.html" class="two mdl-layout-title">Hostel 2</a>
+            <a style = "text-decoration: none;" href="../index.html" class="two mdl-layout-title">Hostel 2</a>
           </span>
         </div>
     </div>
@@ -100,18 +107,17 @@
     <div class="hostel-drawer mdl-layout__drawer">
         <span class="mdl-layout-title" style="padding-left:30px;">
           <!--<img class="hostel-logo-image" src="images/hostel-logo-white.png">-->
-          <a href="../index.html" class="two " style="text-decoration: none; top:10px;">Hostel 2</a>
+          <a href="../index.html" class="two " style="text-decoration: none; top:7px;">Hostel 2</a>
         </span>
         <nav class="mdl-navigation">
             <a style = "text-decoration: none;" class="mdl-navigation__link" href="../council">Council</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Cult</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Tech</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Sports</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Mess</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Maint</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Comp</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Alumni</a>
-            <a style = "text-decoration: none;" class="mdl-navigation__link" href="">About</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../cult">Cult</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../tech">Tech</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../sports">Sports</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../mess">Mess</a>
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../maint">Maint</a>
+            <!--<a style = "text-decoration: none;" class="mdl-navigation__link" href="">Comp</a>-->
+            <a style = "text-decoration: none;" class="mdl-navigation__link" href="../alumni">Alumni</a>
             <!--<div class="hostel-drawer-separator"></div>-->
             <!--<span class="mdl-navigation__link" href="">Versions</span>-->
             <!--<a class="mdl-navigation__link" href="">Lollipop 5.0</a>-->
@@ -132,48 +138,126 @@
     </div>
     <!--Nav links end-->
     <!--Main body starts-->
-    <div class="mdl-layout__content" style ="margin-left: 147px;">
-        <div class="hostel-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <!--<div class="demo-crumbs mdl-color-text&#45;&#45;grey-500">-->
-                <!--Google &gt; Material Design Lite &gt; How to install MDL-->
-            <!--</div>-->
-            <h3>Letter to Alumni</h3>
-            <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-            </p>
-            <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-            </p>
-            <p>
-                Tempor tempor aliqua in commodo cillum Lorem magna dolore proident Lorem. Esse ad consequat est excepteur irure eu irure quis aliqua qui. Do mollit esse veniam excepteur ut veniam anim minim dolore sit commodo consequat duis commodo. Sunt dolor reprehenderit ipsum minim eiusmod eu consectetur anim excepteur eiusmod. Duis excepteur anim dolor sit enim veniam deserunt anim adipisicing Lorem elit. Cillum sunt do consequat elit laboris nisi consectetur.
-            </p>
-            <h3>Contact Us</h3>
-            <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-            </p>
-            <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-            </p>
-            <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-            </p>
-            <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-            </p>
-            <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-            </p>
-            <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-            </p>
-            <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-            </p>
-            <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-            </p>
+    <div class="mdl-layout__content">
+        <div class="mdl-grid" style="padding: 70px;">
+            <div class="mdl-card mdl-cell mdl-cell--10-col mdl-cell--8-col-tablet mdl-cell--8-col-phone mdl-card mdl-shadow--4dp">
+                <!--<div class="demo-crumbs mdl-color-text&#45;&#45;grey-500">-->
+                    <!--Google &gt; Material Design Lite &gt; How to install MDL-->
+                <!--</div>-->
+                <div class="mdl-card__title">
+                    <h3>Letter to Alumni</h3>
+                </div>
+                <div class="mdl-card__supporting-text" style="padding-top: 8px;padding-bottom: 6px;padding-right: ">
+                    <!--<h3>Letter to Alumni</h3>-->
+                    <p>
+                        Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
+                    </p>
+                    <p>
+                        Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
+                    </p>
+                    <p>
+                        Tempor tempor aliqua in commodo cillum Lorem magna dolore proident Lorem. Esse ad consequat est excepteur irure eu irure quis aliqua qui. Do mollit esse veniam excepteur ut veniam anim minim dolore sit commodo consequat duis commodo. Sunt dolor reprehenderit ipsum minim eiusmod eu consectetur anim excepteur eiusmod. Duis excepteur anim dolor sit enim veniam deserunt anim adipisicing Lorem elit. Cillum sunt do consequat elit laboris nisi consectetur.
+                    </p>
+                    <div class="mdl-card__title">
+                        <!--<h3>Letter to Alumni</h3>-->
+                    </div>
+                    <p>
+                        Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
+                    </p>
+                    <p>
+                        Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
+                    </p>
+                    <p>
+                        Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
+                    </p>
+                    <p>
+                        Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
+                    </p>
+                    <p>
+                        Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
+                    </p>
+                    <p>
+                        Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
+                    </p>
+                    <p>
+                        Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
+                    </p>
+                    <p>
+                        Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
+                    </p>
+                </div>
+            </div>
         </div>
+        <footer class="hostel-footer mdl-mega-footer">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--left-section">
+                    <a href="https://www.facebook.com/h2iitb" class="hostel-link">
+                        <button class="mdl-mega-footer--social-btn social-btn social-btn__blogger">
+                            <span class="visuallyhidden">Facebook</span>
+                        </button>
+                    </a>
+                    &nbsp;
+                    <a href="https://www.youtube.com/channel/UC55X5aMAcRVt1zgjv-Ll2fA" class="hostel-link">
+                        <button class="mdl-mega-footer--social-btn social-btn social-btn__youtube">
+                            <span class="visuallyhidden">Youtube</span>
+                        </button>
+                    </a>
 
+                </div>
+                <div class="mdl-mega-footer--right-section">
+                    <ul class="coc">
+                        <li class="hostel-link">
+                            <a class="mdl-typography--font-light" href="#top" style="float: right; text-decoration: none;">
+                                Back to Top
+                                <i class="material-icons">expand_less</i>
+                            </a></li>
+                        <li class="hostel-link">
+                            <div class="fb-like" style="float: bottom;" data-href="https://www.facebook.com/h2iitb/" data-width="74px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                        </li>
+                        <li class="hostel-link">
+                            <a class="twitter-share-button"
+                               href="https://twitter.com/intent/tweet?text=Checkout Hostel 2: The Wild Ones Website"
+                                    >
+                                Tweet</a>
+                            <link rel="canonical"
+                                  href="http://gymkhana.iitb.ac.in/~hostel2">
+                        </li>
+                        <li>
+                            <div class="g-ytsubscribe" data-channel="Hostel2channel" data-layout="default" data-count="default" data-onytevent="onYtEvent"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mdl-mega-footer--middle-section">
+                <p class="mdl-typography--font-light">Designed by Computer Council 2015-16</p>
+            </div>
+
+            <div class="mdl-mega-footer--bottom-section">
+                <a class="hostel-link hostel-link-menu mdl-typography--font-light" id="version-dropdown">
+                    Quick Links
+                    <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+                    <li class="mdl-menu__item">KFC Portal</li>
+                    <li class="mdl-menu__item">McD Portal</li>
+                    <li disabled class="mdl-menu__item">Online Mess Rebate</li>
+                    <li disabled class="mdl-menu__item">Archives</li>
+                </ul>
+                <a class="hostel-link hostel-link-menu mdl-typography--font-light" id="developers-dropdown">
+                    Gallery
+                    <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+                    <li disabled class="mdl-menu__item">Sports Gallery</li>
+                    <li disabled class="mdl-menu__item">Cult Gallery</li>
+
+                </ul>
+                <a class="hostel-link mdl-typography--font-light" href="">View Source</a>
+                <a class="hostel-link mdl-typography--font-light" href="">Mess Menu</a>
+                <!--<a class="hostel-link mdl-typography&#45;&#45;font-light" href="">Hostel-2 Library</a>-->
+            </div>
+        </footer>
 
     </div>
 </div>

@@ -23,7 +23,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Introducing Lollipop, a sweet new take on hostel.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Wild Ones</title>
+    <title>The Wild Ones|Hostel 2|IIT Bombay</title>
 
     <!-- Page styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
@@ -42,6 +42,12 @@
     <link href="css/pgwslideshow.css" rel="stylesheet">
     <link href="css/pgwslideshow_light.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <!-- Webicons-->
+    <link rel="stylesheet" href="css/webicons.css">
+
   </head>
   <body>
 
@@ -50,7 +56,7 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -69,7 +75,7 @@
           <div class="hostel-header-spacer mdl-layout-spacer"></div>
           <div class="hostel-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
+              <!--<i class="material-icons">search</i>-->
             </label>
             <div class="mdl-textfield__expandable-holder">
               <input class="mdl-textfield__input" type="text" id="search-field" />
@@ -79,14 +85,14 @@
           <div class="hostel-navigation-container">
             <nav class="hostel-navigation mdl-navigation">
               <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/council">Council</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Cult</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tech</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sports</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Mess</a>
+              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/cult">Cult</a>
+              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/tech">Tech</a>
+              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/sports">Sports</a>
+              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/mess">Mess</a>
               <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/maint">Maint</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Comp</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">Alumni</a>
-              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="">About</a>
+              <!--<a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography&#45;&#45;text-uppercase" href="">Comp</a>-->
+              <a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography--text-uppercase" href="/alumni">Alumni</a>
+              <!--<a style = "text-decoration : none;" class="mdl-navigation__link mdl-typography&#45;&#45;text-uppercase" href="">About</a>-->
             </nav>
           </div>
           <!--<button class="hostel-more-button mdl-button mdl-js-button mdl-button&#45;&#45;icon mdl-js-ripple-effect" id="more-button">-->
@@ -108,18 +114,18 @@
       <div class="hostel-drawer mdl-layout__drawer">
         <span class="mdl-layout-title" style="padding-left:30px;">
           <!--<img class="hostel-logo-image" src="images/hostel-logo-white.png">-->
-          <a href="index.html" class="two " style="text-decoration: none; top:10px;">Hostel 2</a>
+          <a href="index.html" class="two " style="text-decoration: none; top:7px;">Hostel 2</a>
         </span>
         <nav class="mdl-navigation">
           <a style = "text-decoration: none;" class="mdl-navigation__link" href="/council">Council</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Cult</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Tech</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Sports</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Mess</a>
+          <a style = "text-decoration: none;" class="mdl-navigation__link" href="/cult">Cult</a>
+          <a style = "text-decoration: none;" class="mdl-navigation__link" href="/tech">Tech</a>
+          <a style = "text-decoration: none;" class="mdl-navigation__link" href="/sports">Sports</a>
+          <a style = "text-decoration: none;" class="mdl-navigation__link" href="/mess">Mess</a>
           <a style = "text-decoration: none;" class="mdl-navigation__link" href="/maint">Maint</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Comp</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">Alumni</a>
-          <a style = "text-decoration: none;" class="mdl-navigation__link" href="">About</a>
+          <!--<a style = "text-decoration: none;" class="mdl-navigation__link" href="">Comp</a>-->
+          <a style = "text-decoration: none;" class="mdl-navigation__link" href="/alumni">Alumni</a>
+          <!--<a style = "text-decoration: none;" class="mdl-navigation__link" href="">About</a>-->
           <!--<div class="hostel-drawer-separator"></div>-->
           <!--<span class="mdl-navigation__link" href="">Versions</span>-->
           <!--<a class="mdl-navigation__link" href="">Lollipop 5.0</a>-->
@@ -140,16 +146,8 @@
       </div>
 <!--Nav links end-->
       <!--Main body starts-->
-      <div id ="top"class=" mdl-layout__content" style="overflow:auto; ">
-        <!--<div id="owl-demo">-->
-
-          <!--<div class="item"><img src="../images/slide2.jpg" alt="Owl Image"></div>-->
-          <!--<div class="item"><img src="../images/slide1.jpg" alt="Owl Image"></div>-->
-          <!--<div class="item"><img src="../images/slide3.jpg" alt="Owl Image"></div>-->
-        <!--</div>-->
-
-
-
+      <div class=" mdl-layout__content" style="overflow:auto; ">
+        <a name="top"></a>
           <!--<a  class="twitter-timeline" href="https://twitter.com/axlevisu/lists/hostel-2-inmates" data-widget-id="648066476562214912">Tweets from https://twitter.com/axlevisu/lists/hostel-2-inmates</a>-->
           <!--<script>-->
 <!--//              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");-->
@@ -165,9 +163,10 @@
         <div class="hostel-wear-section">
           <div class="hostel-wear-band">
             <div class="hostel-wear-band-text">
-              <div class="mdl-typography--display-2 mdl-typography--font-thin">Welcome to Hostel 2 Website</div>
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">WELCOME TO HOSTEL 2</div>
               <p class="mdl-typography--headline mdl-typography--font-thin">
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adip
+                <!--Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adip-->
+                We take pride in being a wild one and every one in the hostel contributes to making the Hostel better place to live in and making it successful in all aspects.
               </p>
               <p>
                 <!--<a class="mdl-typography&#45;&#45;font-regular mdl-typography&#45;&#45;text-uppercase hostel-alt-link" href="">-->
@@ -178,18 +177,39 @@
           </div>
         </div>
         <br>
+        <div style="background-color: #f2f2f2;font-family: Afont;box-shadow: 5px 5px 2px #f7f7f7;">
+          <br>
+          <h3 align="center">Notice Board</h3>
+          <div id="owl-demo" class="owl-carousel owl-theme" >
+            <!--<h4 align="center">Updates</h4>-->
+          </div>
+        </div>
+        <br>
+        <h4 class="mdl-cell mdl-cell--12-col" align="center">Important Links</h4>
+        <!--<br>-->
+
         <div class = "mdl-grid">
-          <section class="mdl-cell mdl-cell--4-col mdl-cell--5-col-tablet mdl-cell--5-col-phone mdl-card mdl-shadow--4dp">
+          <!--<div class="mdl-cell mdl-cell&#45;&#45;6-col mdl-cell&#45;&#45;5-col-tablet mdl-cell&#45;&#45;5-col-phone">-->
+            <!--<a class="twitter-timeline"-->
+               <!--data-widget-id="600724936517242880"-->
+               <!--href="https://twitter.com/twitter/lists/official-twitter-accts"-->
+               <!--data-list-owner-screen-name="twitter"-->
+               <!--data-list-slug="official-twitter-accts">-->
+              <!--Tweets from https://twitter.com/twitter/lists/official-twitter-accts-->
+            <!--</a>-->
+          <!--</div>-->
+          <section class="mdl-cell mdl-cell--6-col mdl-cell--5-col-tablet mdl-cell--5-col-phone ">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin-top:14px;">
-                <h4 class="mdl-cell mdl-cell--12-col" align="center">Important Links</h4>
-                <br>
+                <!--<h4 class="mdl-cell mdl-cell&#45;&#45;12-col" align="center">Important Links</h4>-->
+                <!--<br>-->
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary" style="position: relative;margin-top: 50%;"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h4>GABS</h4>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                  <a href="http://gymkhana.iitb.ac.in/~hostels/guest.html" style="text-overflow: auto;"><h4>GABS(Guest Accomodation Booking System)</h4></a>
+                  <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                  Login to the <a href="http://gymkhana.iitb.ac.in/~hostels/guest.html">portal</a> to book a room in the hostel for no longer than 7 days. Room No. 1 and 2 are the guestrooms in the hostel. Money will be deducted from yout mess bill.
                 </div>
                 <div class="hostel-drawer-separator"></div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
@@ -197,58 +217,88 @@
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h4>Online Rebate</h4>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                  <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                  Portal Under Process.
                 </div>
                 <div class="hostel-drawer-separator"></div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary" style="position: relative;margin-top: 50%;"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h4>Lan Complaints</h4>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                  <a href="http://gymkhana.iitb.ac.in/~network/complaint/" style="text-overflow: auto;"><h4>Lan Complaints</h4></a>
+                  <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                  The Vendor will visit every 2nd & 4th Saturday of a month in the morning. The concerned  person should be present during the vendor visit. If the student is not available in the room, it will be treated as locked and system administrator is not responsible for it. If the room is locked it will be served in next vendor visit or at the end if time permits.
+
+                  Please fill the the form with appropriate Subject and Message atleast 3 days prior to the scheduled visit date.
                 </div>
+              </div>
+            </div>
+          </section>
+          <section class="mdl-cell mdl-cell--6-col mdl-cell--5-col-tablet mdl-cell--5-col-phone ">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing" style="margin-top:14px;">
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--accent" style="position: relative;margin-top: 50%;"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h4>CMS</h4>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                  <a href="http://gymkhana.iitb.ac.in/cms_new/" style="text-overflow: auto;"><h4>CMS(Complaint Management System)</h4></a>
+                  <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                  CMS can be used for all common complaints(Hostel and Institute). The complaints lodged via the CMS are automatically emailed to the concerned authorities and the status will be emailed to you.
                 </div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary" style="position: relative;margin-top: 50%;"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                   <h4>Council Meet Minutes</h4>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                  <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                  <ul class="coc" style="padding:0px">
+                    <li class="hostel-link" style="color: #1a1a1a;">
+                      <i class="material-icons md-36" >description</i>
+                      &nbsp;Council meet on dd/mm/yy
+                    </li>
+                    <li class="hostel-link" style="color: #1a1a1a;">
+                      <i class="material-icons md-36" >description</i>
+                      &nbsp;Council meet on dd/mm/yy
+                    </li>
+                    <li class="hostel-link" style="color: #1a1a1a;">
+                      <i class="material-icons md-36" >description</i>
+                      &nbsp;Council meet on dd/mm/yy
+                    </li>
+                    <li class="hostel-link" style="color: #1a1a1a;">
+                      <i class="material-icons md-36" >description</i>
+                      &nbsp;Council meet on dd/mm/yy
+                    </li>
+                  </ul>
                 </div>
                 <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--accent" style="position: relative;margin-top: 50%;"></div>
                 </div>
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h4>Hostel Constitution</h4>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                  <a href="http://gymkhana.iitb.ac.in/~hostel15/Docks/SAC-Constitution-April-2012.pdf" style="text-overflow: auto;"><h4>The Constitution</h4></a>
+                  <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                  The constitution has been written to safeguard the best interests of the hostel. It is an attempt to enable those who are here today and those who will arrive tomorrow to respect, preserve and propagate all the honored traditions.
                 </div>
               </div>
             </div>
           </section>
-          <section style = "height: 320px;"class="mdl-cell mdl-cell--3-col mdl-cell--5-col-tablet mdl-cell--5-col-phone mdl-card mdl-shadow--4dp">
-            <div class="mdl-cell mdl-cell--12-col">
-              <!--<h4>Features</h4>-->
-              <!--Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.-->
-              <ul class="toc">
-                <h4>News and Updates</h4>
-                <li>Hostel 2 Craxx yyyyyyy GC</li>
-                <div class="hostel-drawer-separator"></div>
-                <li >KFC and McDonalds this week! Order here</li>
-                <div class="hostel-drawer-separator"></div>
-                <li>Canteen Closed today(22/10/2015)</li>
-                <div class="hostel-drawer-separator"></div>
-                <li>Logic GC Tomorrow</li>
-                <div class="hostel-drawer-separator"></div>
-                <li>Lorem ipsum</li>
-              </ul>
-            </div>
-          </section>
+          <!--<section style = "height: 320px;"class="mdl-cell mdl-cell&#45;&#45;3-col mdl-cell&#45;&#45;5-col-tablet mdl-cell&#45;&#45;5-col-phone mdl-card mdl-shadow&#45;&#45;4dp">-->
+            <!--<div class="mdl-cell mdl-cell&#45;&#45;12-col">-->
+              <!--&lt;!&ndash;<h4>Features</h4>&ndash;&gt;-->
+              <!--&lt;!&ndash;Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.&ndash;&gt;-->
+              <!--<ul class="toc">-->
+                <!--<h4>News and Updates</h4>-->
+                <!--<li>Hostel 2 Craxx yyyyyyy GC</li>-->
+                <!--<div class="hostel-drawer-separator"></div>-->
+                <!--<li >KFC and McDonalds this week! Order here</li>-->
+                <!--<div class="hostel-drawer-separator"></div>-->
+                <!--<li>Canteen Closed today(22/10/2015)</li>-->
+                <!--<div class="hostel-drawer-separator"></div>-->
+                <!--<li>Logic GC Tomorrow</li>-->
+                <!--<div class="hostel-drawer-separator"></div>-->
+                <!--<li>Lorem ipsum</li>-->
+              <!--</ul>-->
+            <!--</div>-->
+          <!--</section>-->
           <!--<section class="mdl-cell mdl-cell&#45;&#45;5-col mdl-cell&#45;&#45;7-col-tablet mdl-cell&#45;&#45;7-col-phone mdl-card mdl-shadow&#45;&#45;4dp">-->
             <!--<a class="twitter-timeline" href="https://twitter.com/axlevisu/lists/hostel-2-inmates" data-widget-id="648066476562214912">Tweets from https://twitter.com/axlevisu/lists/hostel-2-inmates</a>-->
             <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
@@ -257,6 +307,7 @@
         </div>
       <!--</div>-->
     <!--</div>-->
+
 
 
 
@@ -270,7 +321,17 @@
     <script src="js/pgwslideshow.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/widgets.js"></script>
+    <script>
 
+      twttr.widgets.createTimeline(
+              "600724936517242880",
+              document.getElementById("container"),
+              {
+                listOwnerScreenName: "twitter",
+                listSlug: "official-twitter-accts"
+              }
+      );
+    </script>
     <!--<script>-->
       <!--$(document).ready(function() {-->
         <!--var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow({autoSlide:true});-->
@@ -283,17 +344,35 @@
       $(document).ready(function() {
 
         $("#owl-demo").owlCarousel({
-
+          jsonPath : "json/home.json",
           autoPlay: 3000, //Set AutoPlay to 3 seconds
-
-          items : 2,
+          stopOnHover: true,
+          items : 3,
+          autoHeight:true,
           itemsDesktop : [1199,3],
           itemsDesktopSmall : [979,3]
-
         });
 
       });
     </script>
+        <script src="https://apis.google.com/js/platform.js"></script>
+
+        <script>
+          function onYtEvent(payload) {
+            if (payload.eventType == 'subscribe') {
+              // Add code to handle subscribe event.
+            } else if (payload.eventType == 'unsubscribe') {
+              // Add code to handle unsubscribe event.
+            }
+            if (window.console) { // for debugging only
+              window.console.log('YT event: ', payload);
+            }
+          }
+        </script>
+    <!--<script>-->
+      <!--// Modernizr with SVG detection required. http://modernizr.com-->
+      <!--;window.Modernizr=function(a,b,c){function B(a){j.cssText=a}function C(a,b){return B(m.join(a+";")+(b||""))}function D(a,b){return typeof a===b}function E(a,b){return!!~(""+a).indexOf(b)}function F(a,b){for(var d in a)if(j[a[d]]!==c)return b=="pfx"?a[d]:!0;return!1}function G(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:D(f,"function")?f.bind(d||b):f}return!1}function H(a,b,c){var d=a.charAt(0).toUpperCase()+a.substr(1),e=(a+" "+o.join(d+" ")+d).split(" ");return D(b,"string")||D(b,"undefined")?F(e,b):(e=(a+" "+p.join(d+" ")+d).split(" "),G(e,b,c))}var d="2.5.3",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n="Webkit Moz O ms",o=n.split(" "),p=n.toLowerCase().split(" "),q={svg:"http://www.w3.org/2000/svg"},r={},s={},t={},u=[],v=u.slice,w,x=function(a,c,d,e){var f,i,j,k=b.createElement("div"),l=b.body,m=l?l:b.createElement("body");if(parseInt(d,10))while(d&#45;&#45;)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),k.appendChild(j);return f=["&#173;","<style>",a,"</style>"].join(""),k.id=h,m.innerHTML+=f,m.appendChild(k),l||(m.style.background="",g.appendChild(m)),i=c(k,a),l?k.parentNode.removeChild(k):m.parentNode.removeChild(m),!!i},y=function(b){var c=a.matchMedia||a.msMatchMedia;if(c)return c(b).matches;var d;return x("@media "+b+" { #"+h+" { position: absolute; } }",function(b){d=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle)["position"]=="absolute"}),d},z={}.hasOwnProperty,A;!D(z,"undefined")&&!D(z.call,"undefined")?A=function(a,b){return z.call(a,b)}:A=function(a,b){return b in a&&D(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=v.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(v.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(v.call(arguments)))};return e});var I=function(c,d){var f=c.join(""),g=d.length;x(f,function(c,d){var f=b.styleSheets[b.styleSheets.length-1],h=f?f.cssRules&&f.cssRules[0]?f.cssRules[0].cssText:f.cssText||"":"",i=c.childNodes,j={};while(g&#45;&#45;)j[i[g].id]=i[g];e.touch="ontouchstart"in a||a.DocumentTouch&&b instanceof DocumentTouch||(j.touch&&j.touch.offsetTop)===9},g,d)}([,["@media (",m.join("touch-enabled),("),h,")","{#touch{top:9px;position:absolute}}"].join("")],[,"touch"]);r.touch=function(){return e.touch},r.rgba=function(){return B("background-color:rgba(150,255,150,.5)"),E(j.backgroundColor,"rgba")},r.backgroundsize=function(){return H("backgroundSize")},r.borderradius=function(){return H("borderRadius")},r.textshadow=function(){return b.createElement("div").style.textShadow===""},r.opacity=function(){return C("opacity:.55"),/^0.55$/.test(j.opacity)},r.cssgradients=function(){var a="background-image:",b="gradient(linear,left top,right bottom,from(#9f9),to(white));",c="linear-gradient(left top,#9f9, white);";return B((a+"-webkit- ".split(" ").join(b+a)+m.join(c+a)).slice(0,-a.length)),E(j.backgroundImage,"gradient")},r.csstransitions=function(){return H("transition")},r.svg=function(){return!!b.createElementNS&&!!b.createElementNS(q.svg,"svg").createSVGRect},r.inlinesvg=function(){var a=b.createElement("div");return a.innerHTML="<svg/>",(a.firstChild&&a.firstChild.namespaceURI)==q.svg};for(var J in r)A(r,J)&&(w=J.toLowerCase(),e[w]=r[J](),u.push((e[w]?"":"no-")+w));return B(""),i=k=null,function(a,b){function g(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function h(){var a=k.elements;return typeof a=="string"?a.split(" "):a}function i(a){var b={},c=a.createElement,e=a.createDocumentFragment,f=e();a.createElement=function(a){var e=(b[a]||(b[a]=c(a))).cloneNode();return k.shivMethods&&e.canHaveChildren&&!d.test(a)?f.appendChild(e):e},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+h().join().replace(/\w+/g,function(a){return b[a]=c(a),f.createElement(a),'c("'+a+'")'})+");return n}")(k,f)}function j(a){var b;return a.documentShived?a:(k.shivCSS&&!e&&(b=!!g(a,"article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio{display:none}canvas,video{display:inline-block;*display:inline;*zoom:1}[hidden]{display:none}audio[controls]{display:inline-block;*display:inline;*zoom:1}mark{background:#FF0;color:#000}")),f||(b=!i(a)),b&&(a.documentShived=b),a)}var c=a.html5||{},d=/^<|^(?:button|form|map|select|textarea)$/i,e,f;(function(){var a=b.createElement("a");a.innerHTML="<xyz></xyz>",e="hidden"in a,f=a.childNodes.length==1||function(){try{b.createElement("a")}catch(a){return!0}var c=b.createDocumentFragment();return typeof c.cloneNode=="undefined"||typeof c.createDocumentFragment=="undefined"||typeof c.createElement=="undefined"}()})();var k={elements:c.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:c.shivCSS!==!1,shivMethods:c.shivMethods!==!1,type:"default",shivDocument:j};a.html5=k,j(b)}(this,b),e._version=d,e._prefixes=m,e._domPrefixes=p,e._cssomPrefixes=o,e.mq=y,e.testProp=function(a){return F([a])},e.testAllProps=H,e.testStyles=x,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+u.join(" "):""),e}(this,this.document),function(a,b,c){function d(a){return o.call(a)=="[object Function]"}function e(a){return typeof a=="string"}function f(){}function g(a){return!a||a=="loaded"||a=="complete"||a=="uninitialized"}function h(){var a=p.shift();q=1,a?a.t?m(function(){(a.t=="c"?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){a!="img"&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l={},o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};y[c]===1&&(r=1,y[c]=[],l=b.createElement(a)),a=="object"?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),a!="img"&&(r||y[c]===2?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i(b=="c"?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),p.length==1&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&o.call(a.opera)=="[object Opera]",l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return o.call(a)=="[object Array]"},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,i){var j=b(a),l=j.autoCallback;j.url.split(".").pop().split("?").shift(),j.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]||h),j.instead?j.instead(a,e,f,g,i):(y[j.url]?j.noexec=!0:y[j.url]=1,f.load(j.url,j.forceCSS||!j.forceJS&&"css"==j.url.split(".").pop().split("?").shift()?"c":c,j.noexec,j.attrs,j.timeout),(d(e)||d(l))&&f.load(function(){k(),e&&e(j.origUrl,i,g),l&&l(j.origUrl,i,g),y[j.url]=2})))}function i(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!&#45;&#45;m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var j,l,m=this.yepnope.loader;if(e(a))g(a,0,m,0);else if(w(a))for(j=0;j<a.length;j++)l=a[j],e(l)?g(l,0,m,0):w(l)?B(l):Object(l)===l&&i(l,m);else Object(a)===a&&i(a,m)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,b.readyState==null&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};-->
+    <!--</script>-->
   <!--</body>-->
   <!--<footer >-->
 
@@ -314,23 +393,46 @@
         <footer class="hostel-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--left-section">
-              <a href="https://www.facebook.com/h2iitb/?fref=ts"><i class="fa fa-facebook-official fa-2x"></i></a>
+              <a href="https://www.facebook.com/h2iitb" class="hostel-link">
+              <button class="mdl-mega-footer--social-btn social-btn social-btn__blogger">
+                <span class="visuallyhidden">Facebook</span>
+              </button>
+              </a>
               &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <a href="https://www.youtube.com/channel/UC55X5aMAcRVt1zgjv-Ll2fA"><i class="fa fa-youtube fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UC55X5aMAcRVt1zgjv-Ll2fA" class="hostel-link">
+              <button class="mdl-mega-footer--social-btn social-btn social-btn__youtube">
+                <span class="visuallyhidden">Youtube</span>
+              </button>
+              </a>
+
             </div>
             <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="#top">
+              <ul class="coc">
+                <li class="hostel-link">
+              <a class="mdl-typography--font-light" href="#top" style="float: right; text-decoration: none;">
                 Back to Top
                 <i class="material-icons">expand_less</i>
-              </a>
+              </a></li>
+                <li class="hostel-link">
+              <div class="fb-like" style="float: bottom;" data-href="https://www.facebook.com/h2iitb/" data-width="74px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+              </li>
+              <li class="hostel-link">
+                <a class="twitter-share-button"
+                   href="https://twitter.com/intent/tweet?text=Checkout Hostel 2: The Wild Ones Website"
+                   >
+                  Tweet</a>
+                <link rel="canonical"
+                      href="http://gymkhana.iitb.ac.in/~hostel2">
+              </li>
+                <li>
+                  <div class="g-ytsubscribe" data-channel="Hostel2channel" data-layout="default" data-count="default" data-onytevent="onYtEvent"></div>
+                </li>
+              </ul>
             </div>
           </div>
 
           <div class="mdl-mega-footer--middle-section">
             <p class="mdl-typography--font-light">Designed by Computer Council 2015-16</p>
-            <!--<p class="mdl-typography&#45;&#45;font-light">Some features and devices may not be available in all areas</p>-->
           </div>
 
           <div class="mdl-mega-footer--bottom-section">
@@ -345,15 +447,15 @@
               <li disabled class="mdl-menu__item">Archives</li>
             </ul>
             <a class="hostel-link hostel-link-menu mdl-typography--font-light" id="developers-dropdown">
-              For Developers
+              Gallery
               <i class="material-icons">arrow_drop_up</i>
             </a>
             <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-              <li class="mdl-menu__item">App developer resources</li>
-              <li class="mdl-menu__item">hostel Open Source Project</li>
-              <li class="mdl-menu__item">hostel SDK</li>
-              <li class="mdl-menu__item">hostel for Work</li>
+              <li disabled class="mdl-menu__item">Sports Gallery</li>
+              <li disabled class="mdl-menu__item">Cult Gallery</li>
+
             </ul>
+            <a class="hostel-link mdl-typography--font-light" href="">View Source</a>
             <a class="hostel-link mdl-typography--font-light" href="">Mess Menu</a>
             <!--<a class="hostel-link mdl-typography&#45;&#45;font-light" href="">Hostel-2 Library</a>-->
           </div>
