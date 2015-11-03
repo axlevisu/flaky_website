@@ -475,7 +475,8 @@ a img{
 
 .hostel-wear-section {
   position: relative;
-  background: url('images/slide1.jpg') center no-repeat;
+  background: url('images/wall.JPG') center no-repeat;
+  background-position: bottom;
   background-size: cover;
   height: 700px;
 }
@@ -571,8 +572,8 @@ a img{
 }
 .hostel-card-square > .mdl-card__title {
   color: #fff;
-  background:
-  url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+  /*background:*/
+  /*url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;*/
 }
 
 .hostel-card-container {
@@ -867,6 +868,7 @@ section .section--center .section__text:not(:last-child) {
 .toc h4 {
   /*font-size: 0.9rem;*/
   margin-top: 0;
+  color: #0f0f0f;
 }
 .toc a {
   color: #4DD0E1;
@@ -877,7 +879,7 @@ section .section--center .section__text:not(:last-child) {
 }
 .toc li {
   /*color: #4DD0E1;*/
-  color: #3b5998;
+  color: #0e1f5b;
   text-decoration: none;
   font-size: 16px;
   line-height: 28px;
