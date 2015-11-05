@@ -1,16 +1,19 @@
 {
   "owl" : [
-    {"item" : "<div class=\"update\" style =\"background: url('images/sports/tgc.JPG')center / cover;height: 320px;\"><h1>GOLD IN TRIATHLON GC 2015</h1></div>"},
+    {"item" : "<div class=\"update mdl-typography--text-uppercase\" style =\"background: url('images/cult/musicgc.jpg')top / cover;height: 320px;\"><h1>3rd in music GC 2015 <a href='https://youtu.be/VgZLEInIQX0'><i style ='color:#ffffff;' class=\"material-icons md-36\">video_library</i></a></h1></div>"},
 
-    {"item" : "<div class=\"update\" style =\"background: url('images/cult/gyra2.JPG')center / cover;height: 320px;\"><h1>THIRD IN GYRATIONS 2015</h1></div>"},
+    {"item" : "<div class=\"update mdl-typography--text-uppercase\" style =\"background: url('images/sports/tgc.JPG')center / cover;height: 320px;\"><h1>GOLD IN TRIATHLON GC 2015</h1></div>"},
 
-    {"item" : "<span class='update'><h2>Gala Dinner on 4th November</h2></span>"},
+    {"item" : "<div class=\"update mdl-typography--text-uppercase\" style =\"background: url('images/cult/gyra2.JPG')center / cover;height: 320px;\"><h1>THIRD IN GYRATIONS 2015</h1></div>"},
 
-    {"item" : "<span class='update'><h1>LAN Vendor Visit on 14th November</h1></span>"},
 
-    {"item" : "<span class='update'><h1>GBM on 5th November</h1></span>"},
+    {"item" : "<span class='update mdl-typography--text-uppercase'><h4>Mess Menu(5/11/15)</h4><p>Breakfast: PURI BHAJI, SPROUTED MOONG, BOILED EGG/BHURJI, BBJ, APPLE</p><p>Lunch: STUFFED TOMATO MASALA, GAJAR MATAR DRY, DAL FRY, CHAPATI SALAD, KOLHAPURI PULAV, PLAIN RICE ,CURD, RASNA</p><p>Tiffin: PURAN POLI, AMTI, CHOCOS, CHOCOLATE MILKSHAKE, (NO COLD MILK), FRUIT</p><p>Dinner: PANEER TIKKA MASALA, MIX GRAIN ROTI,SALAD,STEAM RICE, VEG MANCHURIAN DRY(LIMITED), CORRIENDER RICE, DAL TADKA, SWEET-COCONUT LADOO</p></span>"},
 
-    {"item" : "<span class='update'><h1>LOST AND FOUND:</h1></span>"}
+    {"item" : "<span class='update mdl-typography--text-uppercase'><h1>LAN Vendor Visit on 14th November</h1></span>"},
+
+    {"item" : "<span class='update mdl-typography--text-uppercase'><h1>GBM on 5th November</h1></span>"},
+
+    {"item" : "<span class='update mdl-typography--text-uppercase'><h1>LOST AND FOUND:</h1></span>"}
 
   ]
 }
